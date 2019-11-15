@@ -43,6 +43,6 @@ app.post('/login', (req, res) => {
   })
 })
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log('Servidor corriendo en puerto 4000')
 })
